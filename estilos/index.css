@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Roboto', sans-serif;
+}
+
+.bloque{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+
+
+.header{
+    background-image: url("../Imagenes/leyes/header.fw.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.centrar{
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.logo{
+    color: #c1c1c1; margin-top: 10px;
+    width: 30%;
+    float: left;
+    text-align: left;
+
+}
+
+.menu-principal{
+    width: 47%;
+    float: right;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 7px;
+}
+
+
+.menu-principal ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+.menu-principal ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+/*--------- Aqui hice lo de izuqierda y derecha--------*/
+
+
+.izquierda, .derecha{
+    width: 45%;
+    height: auto; overflow: hidden;
+    display: inline-block;
+}
+
+.izquierda{ float: left; text-align: left;}
+
+.subtitulo{
+    color: #c1c1c1;
+}
+
+
+
+.titulo-principal{
+    color: #fff;
+    font-size: 60px;
+}
+
+.descripcion{
+    color: #c1c1c1;
+    font-weight: 300 ;
+}
+
+
+.boton{
+    padding: 17px 35px;
+    background: #883131;
+    color: #fff;
+    border-radius: 7px;
+    border: 0px;
+}
+
+
+.derecha{float: right;}
+
+.img-Incio{
+    width: 90%;
+
+}
+
+
+/*-------Seccion de info y cositas-------*/
+
+.elegir{
+    padding: 50px 0px;
+}
+
+.elegir .derecha{
+    text-align: left;
+}
+
+.img-elige{
+    width: 95%;
+}
+
+.elegir .derecha .textiño{
+    color: #f94f28;
+}
+
+
+.elegir .derecha h1{
+    color: #424141;
+    font-size: 35px;
+}
+
+.elegir .derecha p{
+    color: #7d7a7a;
+    font-weight: 300;
+}
+
+
+.opcion{
+    width: 45%;
+    margin-bottom: 30px;
+    padding: 7px;
+    border-left: 4px solid#df3a01;
+    border-radius: 7px;
+}
+
+
+.opcion .imagen-opciones{
+    width:20%;
+    float: left;
+    margin-right: 10px;
+}
+
+.opciones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.Texto Opciones{
+    margin-top: 15px;
+}
+
+.opcion :hover{
+    color: #df3a01;
+}
+
+
+
+/*------------Parte de las notis--------*/
+
+.Notificaciones{
+    height: auto;
+    overflow: hidden;
+    background-image: url("../Imagenes/leyes/dos.fw.png") ;
+    padding: 30px 0px;
+    color: #fff;
+
+}
+
+.Notis h4{
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+
+.for-notis{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.Entrada-noti{
+    width: 40%;
+    padding: 15px;
+    border-radius: 7px;
+    border: 0px;
+}
+
+.boton-ntois{
+    padding: 17px 35px;
+    background: black;
+    color: #fff;
+    border-radius: 7px;
+    border: 0px;
+}
+
+.boton-ntois :hover{
+    background: #bc2121;
+}
+
+
+
+
+/*------------Parte de las servicios--------*/
+
+
+.servicios{
+    padding: 50px 0px;
+    background: #dde6a1
+} 
+
+.Princiaples-Servicios{ 
+    color: #424141;
+    font-size: 35px;
+}
+
+.textiño{
+    color: #f94f28;
+}
+
+
+.contenedores{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin-top: -50px;
+}
+
+
+.contenedores .contenido{
+    width: 45%;
+    height: 180px;
+    position: relative;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0px 0px 10px  #ccc;
+    border-radius: 7px;
+    margin-bottom: 25px;
+}
+
+
+.img-contenidos{
+    width: 30%;
+    float: left ;
+    margin-right: 10px;
+}
+
+
+.parrafo{
+    color: #7d7a7a;
+    line-height: 40px;
+}
+
+
+
+
+/*----------Beneficios------*/
+
+
+.planesbene{
+    background: #d3d33e;
+    
+}
+
+.Incio{
+    background: #ebf7e4
+}
+
+.contenedor-planes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
+
+.plan{
+    width: 30%;
+}
+
+
+.img-plan{
+    width: 80%;
+    height: auto; overflow: hidden;
+    background: #fff;
+}
+
+
+.Boton-planes{
+    width: 100%;
+    padding: 17px 35px;
+    background: black;
+    color: #fff;
+    border-radius: 7px;
+    border: 0px;
+}
+
+
+.plan ul li{
+    height: 50px;
+    list-style: none;
+}
+
+.titulo-plan{
+    width: 35%;
+    padding: 15px;
+    background: #f31f1f;
+    border-radius: 0px 25px 25px 0px ;
+
+}
+
+
+
+.img-plan{
+    width: 260px;
+}
+
+.aprender{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+}
+
+.Kevin{
+    margin: 10px;
+    font-size: medium;
+}
+
+
+
+/*------Fotter-*****/
+
+
+
+ 
+
+.footer{
+    height: 360px;
+    width: 100%;
+    padding: 40px 0px;
+    background: rgb(108, 109, 106);
+
+}
+
+.footer .centrar .izquierda h4  {
+    color: #fff;
+    text-align: center;
+}
+
+.footer .centrar .izquierda p{
+    text-align: justify;
+}
+
+
+
+
+
+.wrapper{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.wrapper .button {
+  display: inline-block;
+  height: 60px;
+  width: 59px;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+}
+.wrapper .button:hover {
+  width: 200px;
+}
+.wrapper .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon{
+  background: #4267B2;
+}
+.wrapper .button:nth-child(2):hover .icon{
+  background: #1DA1F2;
+}
+.wrapper .button:nth-child(3):hover .icon{
+	background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,
+	#dc2743 50%,#cc2366 75%,#bc1888 100%);
+}
+.wrapper .button:nth-child(4):hover .icon{
+  background: #333;
+}
+.wrapper .button:nth-child(5):hover .icon{
+  background: #ff0000;
+}
+.wrapper .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
+  color: #fff;
+}
+.wrapper .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1) span{
+  color: #4267B2;
+}
+.wrapper .button:nth-child(2) span{
+  color: #1DA1F2;
+}
+.wrapper .button:nth-child(3) span{
+  color: #E1306C;
+}
+.wrapper .button:nth-child(4) span{
+  color: #333;
+}
+.wrapper .button:nth-child(5) span{
+  color: #ff0000;
+}
+
+
+
+.fooNoti{
+  width: 60%;
+  padding: 8px 5px ;
+  margin-bottom:  10px;
+
+}
+
+
+.boton-contacto{
+    padding: 7px 12px;
+    width: 70%;
+    background: #c1c1c1;
+}
+
+
+.noticas img{
+    float: left;
+}
+
+.noticas .titulo-conte  {
+    margin-bottom: 10px;
+}
+
+
+img{
+    margin: 15px;
+}
+
+
+.parrafito{
+    text-align: justify;
+}
